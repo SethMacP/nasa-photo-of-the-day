@@ -2,7 +2,7 @@ import React from 'react';
 
 function PhotoFooter (props) {
     const footerData = props.data;
-    console.log(footerData);
+    //console.log(footerData);
 
     return(
         <div>

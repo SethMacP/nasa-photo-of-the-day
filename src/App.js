@@ -10,7 +10,7 @@ function App() {
     .get("https://api.nasa.gov/planetary/apod?api_key=vwlEuQ7sN1bhEHHjV5ETyX3aLTyIkzoLzWpN7Gde")
     .then(response => {
       setPhoto(response.data);
-      // console.log('response', response.data);
+      //// console.log('response', response.data);
       // console.log('response url', response.data.url);
     })
     .catch(err => {console.log('--Error Occured--', err)
